@@ -13,7 +13,7 @@ In my thesis, an semi-analytical approximation method is built up to approximate
 
 
 ### Clone this repo
-`$ git clone https://github.com/phynance/Conditional-Asian-Option-Monte-Carlo-Simulation/`
+`$ git clone https://github.com/phynance/pricing-conditional-Asian-option-MC-method-/`
 
 ## How to use?
 1. Users can set the values of the model parameters here. In this program, the Black-Scholes model assumption is used where the asset prices are lognormally distributed.
@@ -41,7 +41,7 @@ J = 0 ;  % initial value of continuous-arithmetic sum of time whose asset prices
 ```
 
 
-3. To speed up the program, the special function in MATLAB parfor-Loops are used
+3. To speed up the program, the special function in MATLAB "parfor-Loops" are used
 ```
 parfor n = 1:M   %%%%    execute for-loop iterations in parallel
 ```
