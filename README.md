@@ -48,7 +48,7 @@ parfor n = 1:M   %%%%    execute for-loop iterations in parallel
 
 ## Result
 The program output 1 figure plotting the option prices for different initial asset prices.
-<img src="https://github.com/phynance/Conditional-Asian-Option-Monte-Carlo-Simulation/blob/master/result.png">
+<img src="https://github.com/phynance/pricing-conditional-Asian-option-MC-method-/blob/master/result.png">
 
 The standard errors in MC simulation for each option price are stored in the list 
 ```
