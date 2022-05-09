@@ -31,7 +31,7 @@ K = 3;       % fixed strike
 B = 1.5 ;    % 50% observation barrier
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ```
-Here, we follow the setting as done by BNP Paribas, where the observation is set to be 50% of the exercise price. M is the number of simulations of asset paths you want. Here 10^5 of asset paths are simulate.
+Here, we follow the setting as done by BNP Paribas, in which the observation barrier is set to be 50% of the exercise price. M is the number of simulations of asset paths you want. Here 10^5 of asset paths are simulated.
 
 
 2. It is also worth noticing the values of I and J are set to be zero at time-zero case. 
